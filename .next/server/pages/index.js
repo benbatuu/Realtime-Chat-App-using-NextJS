@@ -1,0 +1,86 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
+exports.modules = {
+
+/***/ "./context/index.js":
+/*!**************************!*\
+  !*** ./context/index.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Context\": () => (/* binding */ Context),\n/* harmony export */   \"ContextProvider\": () => (/* binding */ ContextProvider)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Context = /*#__PURE__*/ (0,react__WEBPACK_IMPORTED_MODULE_1__.createContext)();\nconst ContextProvider = (props)=>{\n    const { 0: username , 1: setUsername  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    const { 0: secret , 1: setSecret  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(\"\");\n    const value = {\n        username,\n        setUsername,\n        secret,\n        setSecret\n    };\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Context.Provider, {\n        value: value,\n        __source: {\n            fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/context/index.js\",\n            lineNumber: 16,\n            columnNumber: 12\n        },\n        __self: undefined,\n        children: props.children\n    }));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb250ZXh0L2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBc0Q7QUFFL0MsS0FBSyxDQUFDRyxPQUFPLGlCQUFHRCxvREFBYTtBQUU3QixLQUFLLENBQUNFLGVBQWUsSUFBR0MsS0FBSyxHQUFLLENBQUM7SUFDdEMsS0FBSyxNQUFFQyxRQUFRLE1BQUVDLFdBQVcsTUFBSU4sK0NBQVEsQ0FBQyxDQUFFO0lBQzNDLEtBQUssTUFBRU8sTUFBTSxNQUFFQyxTQUFTLE1BQUlSLCtDQUFRLENBQUMsQ0FBRTtJQUV2QyxLQUFLLENBQUNTLEtBQUssR0FBRyxDQUFDO1FBQ1hKLFFBQVE7UUFDUkMsV0FBVztRQUNYQyxNQUFNO1FBQ05DLFNBQVM7SUFDYixDQUFDO0lBRUQsTUFBTSxzRUFBRU4sT0FBTyxDQUFDUSxRQUFRO1FBQUNELEtBQUssRUFBRUEsS0FBSzs7Ozs7OztrQkFBR0wsS0FBSyxDQUFDTyxRQUFROztBQUMxRCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbGVhcm4tc3RhcnRlci8uL2NvbnRleHQvaW5kZXguanM/NWQyNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUsIGNyZWF0ZUNvbnRleHQgfSBmcm9tIFwicmVhY3RcIjtcblxuZXhwb3J0IGNvbnN0IENvbnRleHQgPSBjcmVhdGVDb250ZXh0KCk7XG5cbmV4cG9ydCBjb25zdCBDb250ZXh0UHJvdmlkZXI9IChwcm9wcykgPT4ge1xuICAgIGNvbnN0IFt1c2VybmFtZSwgc2V0VXNlcm5hbWVdID0gdXNlU3RhdGUoXCJcIik7XG4gICAgY29uc3QgW3NlY3JldCwgc2V0U2VjcmV0XSA9IHVzZVN0YXRlKFwiXCIpO1xuXG4gICAgY29uc3QgdmFsdWUgPSB7XG4gICAgICAgIHVzZXJuYW1lLFxuICAgICAgICBzZXRVc2VybmFtZSxcbiAgICAgICAgc2VjcmV0LFxuICAgICAgICBzZXRTZWNyZXQsXG4gICAgfTtcblxuICAgIHJldHVybiA8Q29udGV4dC5Qcm92aWRlciB2YWx1ZT17dmFsdWV9Pntwcm9wcy5jaGlsZHJlbn08L0NvbnRleHQuUHJvdmlkZXI+O1xufSJdLCJuYW1lcyI6WyJSZWFjdCIsInVzZVN0YXRlIiwiY3JlYXRlQ29udGV4dCIsIkNvbnRleHQiLCJDb250ZXh0UHJvdmlkZXIiLCJwcm9wcyIsInVzZXJuYW1lIiwic2V0VXNlcm5hbWUiLCJzZWNyZXQiLCJzZXRTZWNyZXQiLCJ2YWx1ZSIsIlByb3ZpZGVyIiwiY2hpbGRyZW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./context/index.js\n");
+
+/***/ }),
+
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Auth)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context */ \"./context/index.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ \"axios\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_4__]);\naxios__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];\n\n\n\n\n\nfunction Auth() {\n    const { username , setUsername , secret , setSecret  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_context__WEBPACK_IMPORTED_MODULE_2__.Context);\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_3__.useRouter)();\n    function onSubmit(e) {\n        e.preventDefault();\n        if (username.length === 0 || secret.length === 0) return 0;\n        axios__WEBPACK_IMPORTED_MODULE_4__[\"default\"].put('https://api.chatengine.io/users/', {\n            username,\n            secret\n        }, {\n            headers: {\n                'PRIVATE-KEY': '99cad3b1-1809-4736-901a-09b31053898b'\n            }\n        }).then((r)=>router.push('/chats')\n        );\n    }\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n        className: \"background\",\n        __source: {\n            fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n            lineNumber: 24,\n            columnNumber: 5\n        },\n        __self: this,\n        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n            className: \"auth-container\",\n            __source: {\n                fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                lineNumber: 25,\n                columnNumber: 7\n            },\n            __self: this,\n            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"form\", {\n                className: \"auth-form\",\n                onSubmit: (e)=>onSubmit(e)\n                ,\n                __source: {\n                    fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                    lineNumber: 26,\n                    columnNumber: 9\n                },\n                __self: this,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                        className: \"auth-title\",\n                        __source: {\n                            fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                            lineNumber: 27,\n                            columnNumber: 11\n                        },\n                        __self: this,\n                        children: \"NextJS Chat App\"\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                        className: \"input-container\",\n                        __source: {\n                            fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                            lineNumber: 29,\n                            columnNumber: 11\n                        },\n                        __self: this,\n                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"input\", {\n                            placeholder: \"E-mail Address\",\n                            className: \"text-input\",\n                            onChange: (e)=>setUsername(e.target.value)\n                            ,\n                            __source: {\n                                fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                                lineNumber: 30,\n                                columnNumber: 13\n                            },\n                            __self: this\n                        })\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"div\", {\n                        className: \"input-container\",\n                        __source: {\n                            fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                            lineNumber: 36,\n                            columnNumber: 11\n                        },\n                        __self: this,\n                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"input\", {\n                            type: \"password\",\n                            placeholder: \"**********\",\n                            className: \"text-input\",\n                            onChange: (e)=>setSecret(e.target.value)\n                            ,\n                            __source: {\n                                fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                                lineNumber: 37,\n                                columnNumber: 13\n                            },\n                            __self: this\n                        })\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"button\", {\n                        type: \"submit\",\n                        className: \"submit-button\",\n                        __source: {\n                            fileName: \"/Users/rgbatu/Desktop/nextjsChatApp/pages/index.js\",\n                            lineNumber: 44,\n                            columnNumber: 11\n                        },\n                        __self: this,\n                        children: \"Login / SignUp\"\n                    })\n                ]\n            })\n        })\n    }));\n};\n\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7O0FBQXlDO0FBQ0w7QUFDRztBQUNkO0FBQ1YsUUFBUSxDQUFDSyxJQUFJLEdBQUcsQ0FBQztJQUU5QixLQUFLLENBQUMsQ0FBQyxDQUFDQyxRQUFRLEdBQUNDLFdBQVcsR0FBQ0MsTUFBTSxHQUFDQyxTQUFTLEVBQUMsQ0FBQyxHQUFHUixpREFBVSxDQUFDQyw2Q0FBTztJQUNwRSxLQUFLLENBQUNRLE1BQU0sR0FBR1Asc0RBQVM7YUFDZlEsUUFBUSxDQUFDQyxDQUFDLEVBQUMsQ0FBQztRQUNuQkEsQ0FBQyxDQUFDQyxjQUFjO1FBRWhCLEVBQUUsRUFBQ1AsUUFBUSxDQUFDUSxNQUFNLEtBQUssQ0FBQyxJQUFJTixNQUFNLENBQUNNLE1BQU0sS0FBSyxDQUFDLEVBQUcsTUFBTSxDQUFDLENBQUM7UUFFMURWLGlEQUFTLENBQ1AsQ0FBa0MsbUNBQ2xDLENBQUNFO1lBQUFBLFFBQVE7WUFBQ0UsTUFBTTtRQUFBLENBQUMsRUFDakIsQ0FBQ1E7WUFBQUEsT0FBTyxFQUFFLENBQUM7Z0JBQ1QsQ0FBYSxjQUFFLENBQXNDO1lBQ3ZELENBQUM7UUFBQyxDQUFDLEVBQ0RDLElBQUksRUFBQ0MsQ0FBQyxHQUFJUixNQUFNLENBQUNTLElBQUksQ0FBQyxDQUFROztJQUNwQyxDQUFDO0lBRUQsTUFBTSxzRUFDSEMsQ0FBRztRQUFDQyxTQUFTLEVBQUMsQ0FBWTs7Ozs7Ozt1RkFDeEJELENBQUc7WUFBQ0MsU0FBUyxFQUFDLENBQWdCOzs7Ozs7OzRGQUM1QkMsQ0FBSTtnQkFBQ0QsU0FBUyxFQUFDLENBQVc7Z0JBQUNWLFFBQVEsR0FBRUMsQ0FBQyxHQUFJRCxRQUFRLENBQUNDLENBQUM7Ozs7Ozs7Ozt5RkFDbERRLENBQUc7d0JBQUNDLFNBQVMsRUFBQyxDQUFZOzs7Ozs7O2tDQUFDLENBQWU7O3lGQUUxQ0QsQ0FBRzt3QkFBQ0MsU0FBUyxFQUFDLENBQWlCOzs7Ozs7O3VHQUM3QkUsQ0FBSzs0QkFDSkMsV0FBVyxFQUFDLENBQWdCOzRCQUM1QkgsU0FBUyxFQUFDLENBQVk7NEJBQ3RCSSxRQUFRLEdBQUViLENBQUMsR0FBSUwsV0FBVyxDQUFDSyxDQUFDLENBQUNjLE1BQU0sQ0FBQ0MsS0FBSzs7Ozs7Ozs7Ozt5RkFHNUNQLENBQUc7d0JBQUNDLFNBQVMsRUFBQyxDQUFpQjs7Ozs7Ozt1R0FDN0JFLENBQUs7NEJBQ0pLLElBQUksRUFBQyxDQUFVOzRCQUNmSixXQUFXLEVBQUMsQ0FBWTs0QkFDeEJILFNBQVMsRUFBQyxDQUFZOzRCQUN0QkksUUFBUSxHQUFFYixDQUFDLEdBQUlILFNBQVMsQ0FBQ0csQ0FBQyxDQUFDYyxNQUFNLENBQUNDLEtBQUs7Ozs7Ozs7Ozs7eUZBRzFDRSxDQUFNO3dCQUFDRCxJQUFJLEVBQUMsQ0FBUTt3QkFBQ1AsU0FBUyxFQUFDLENBQWU7Ozs7Ozs7a0NBQUMsQ0FFaEQ7Ozs7OztBQUtWLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9sZWFybi1zdGFydGVyLy4vcGFnZXMvaW5kZXguanM/YmVlNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlQ29udGV4dCB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgQ29udGV4dCB9IGZyb20gJy4uL2NvbnRleHQnO1xuaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSBcIm5leHQvcm91dGVyXCI7XG5pbXBvcnQgYXhpb3MgZnJvbSAnYXhpb3MnO1xuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQXV0aCgpIHtcblxuICBjb25zdCB7IHVzZXJuYW1lLHNldFVzZXJuYW1lLHNlY3JldCxzZXRTZWNyZXQgfSA9IHVzZUNvbnRleHQoQ29udGV4dCk7XG4gIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpO1xuICBmdW5jdGlvbiBvblN1Ym1pdChlKXtcbiAgICBlLnByZXZlbnREZWZhdWx0KCk7XG5cbiAgICBpZih1c2VybmFtZS5sZW5ndGggPT09IDAgfHzCoHNlY3JldC5sZW5ndGggPT09IDAgKSByZXR1cm4gMDtcblxuICAgIGF4aW9zLnB1dChcbiAgICAgICdodHRwczovL2FwaS5jaGF0ZW5naW5lLmlvL3VzZXJzLycsXG4gICAgICB7dXNlcm5hbWUsc2VjcmV0fSxcbiAgICAgIHtoZWFkZXJzOiB7IFxuICAgICAgICAnUFJJVkFURS1LRVknOiAnOTljYWQzYjEtMTgwOS00NzM2LTkwMWEtMDliMzEwNTM4OThiJ1xuICAgICAgfSx9XG4gICAgICApLnRoZW4ociA9PiByb3V0ZXIucHVzaCgnL2NoYXRzJykpXG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiYmFja2dyb3VuZFwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJhdXRoLWNvbnRhaW5lclwiPlxuICAgICAgICA8Zm9ybSBjbGFzc05hbWU9XCJhdXRoLWZvcm1cIiBvblN1Ym1pdD17ZSA9PiBvblN1Ym1pdChlKX0+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhdXRoLXRpdGxlXCI+TmV4dEpTIENoYXQgQXBwPC9kaXY+XG4gICAgICAgICAgXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbnB1dC1jb250YWluZXJcIj5cbiAgICAgICAgICAgIDxpbnB1dFxuICAgICAgICAgICAgICBwbGFjZWhvbGRlcj1cIkUtbWFpbCBBZGRyZXNzXCJcbiAgICAgICAgICAgICAgY2xhc3NOYW1lPVwidGV4dC1pbnB1dFwiXG4gICAgICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHNldFVzZXJuYW1lKGUudGFyZ2V0LnZhbHVlKX1cbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbnB1dC1jb250YWluZXJcIj5cbiAgICAgICAgICAgIDxpbnB1dFxuICAgICAgICAgICAgICB0eXBlPVwicGFzc3dvcmRcIlxuICAgICAgICAgICAgICBwbGFjZWhvbGRlcj1cIioqKioqKioqKipcIlxuICAgICAgICAgICAgICBjbGFzc05hbWU9XCJ0ZXh0LWlucHV0XCJcbiAgICAgICAgICAgICAgb25DaGFuZ2U9e2UgPT4gc2V0U2VjcmV0KGUudGFyZ2V0LnZhbHVlKX1cbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGJ1dHRvbiB0eXBlPVwic3VibWl0XCIgY2xhc3NOYW1lPVwic3VibWl0LWJ1dHRvblwiPlxuICAgICAgICAgICAgTG9naW4gLyBTaWduVXBcbiAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgPC9mb3JtPlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJ1c2VDb250ZXh0IiwiQ29udGV4dCIsInVzZVJvdXRlciIsImF4aW9zIiwiQXV0aCIsInVzZXJuYW1lIiwic2V0VXNlcm5hbWUiLCJzZWNyZXQiLCJzZXRTZWNyZXQiLCJyb3V0ZXIiLCJvblN1Ym1pdCIsImUiLCJwcmV2ZW50RGVmYXVsdCIsImxlbmd0aCIsInB1dCIsImhlYWRlcnMiLCJ0aGVuIiwiciIsInB1c2giLCJkaXYiLCJjbGFzc05hbWUiLCJmb3JtIiwiaW5wdXQiLCJwbGFjZWhvbGRlciIsIm9uQ2hhbmdlIiwidGFyZ2V0IiwidmFsdWUiLCJ0eXBlIiwiYnV0dG9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/index.js\n");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = import("axios");;
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
+module.exports = __webpack_exports__;
+
+})();
